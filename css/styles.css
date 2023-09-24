@@ -1,6 +1,6 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Vivian Nguyen
+Date: 9/24/23
 File Name: styles.css
 */
 
@@ -23,7 +23,10 @@ img {
 }
 
 /* Style rules for mobile viewport */
-
+.social img {
+    display: inline-block;
+    padding: 4%;
+}
 /* Hide tab-desk class */
 .tab-desk, #menu-links {
     display: none;
@@ -299,6 +302,17 @@ footer a {
     form {
         width: 70%;
         margin: 0 auto;
+    }
+    
+    /* Tablet Viewport: Style rules for footer area */
+    .copyright {
+        float: left;
+        width: 65%;
+    }
+    
+    .social {
+        float: right;
+        width: 25%;
     }
     
 }
